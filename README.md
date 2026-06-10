@@ -6,7 +6,7 @@ A workflow was developed to extract frames from videos of one or two rabbits eit
 Frames were then labelled according to observed behvaiour and a machine learning dataset was created from the labelled frames.
 A classifier was trained to identify the rabbit's behaviours.
 
-This is a simple classifier currently with only two observed states:
+The first classifier only classified two observed states:
 
 - Active
 - Inactive
@@ -17,7 +17,19 @@ Dataset:
 - 186 Active
 - 149 Inactive
 
+The second version classified three observed states:
+
+- Eating
+- Exploring
+- Resting
+
+Dataset:
+
+- 129 Eating
+- 57 Exploring
+- 149 Resting
+
 Python and Python libraries were used to build this project.
 
-The pilot prototype has been completed. The model has an accuracy of 100% using the current data and behavioural states of active/inactive.
+The pilot prototype has been completed. The model has an accuracy of 100% using the current data and behavioural states.
 This indicates issues with the data and/or classifications used. However, it also demonstrates that the prototype pipeline is functioning.

@@ -4,8 +4,9 @@ from pathlib import Path
 
 labels = pd.read_csv("frame_labels.csv")
 
-Path("dataset/Active").mkdir(parents=True, exist_ok=True)
-Path("dataset/Inactive").mkdir(parents=True, exist_ok=True)
+Path("dataset/Eating").mkdir(parents=True, exist_ok=True)
+Path("dataset/Exploring").mkdir(parents=True, exist_ok=True)
+Path("dataset/Resting").mkdir(parents=True, exist_ok=True)
 
 for _, row in labels.iterrows():
 
