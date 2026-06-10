@@ -1,0 +1,11 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv313/
+__pycache__/
+*.pyc
+
+dataset/
+extracted_frames/
+
+frame_labels.csv
+
+.vscode/

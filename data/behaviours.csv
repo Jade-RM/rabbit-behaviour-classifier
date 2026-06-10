@@ -1,0 +1,11 @@
+video,start,end,label
+rabbit_behaviour_1,0,30,Active
+rabbit_behaviour_2,0,30,Inactive
+rabbit_behaviour_3,0,30,Inactive
+rabbit_behaviour_4,0,2,Active
+rabbit_behaviour_4,3,12,Inactive
+rabbit_behaviour_4,13,21,Active
+rabbit_behaviour_4,22,30,Active
+rabbit_behaviour_5,0,4,Inactive
+rabbit_behaviour_5,5,30,Active
+rabbit_behaviour_6,0,17,Active
