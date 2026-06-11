@@ -1,6 +1,10 @@
 video,start,end,label
 rabbit_behaviour_1,0,30,Eating
-rabbit_behaviour_2,0,30,Resting
+rabbit_behaviour_2,0,8,Resting
+rabbit_behaviour_2,9,11,Grooming
+rabbit_behaviour_2,12,13,Resting
+rabbit_behaviour_2,14,18,Grooming
+rabbit_behaviour_2,19,30,Resting
 rabbit_behaviour_3,0,30,Resting
 rabbit_behaviour_4,0,2,Exploring
 rabbit_behaviour_4,3,12,Resting

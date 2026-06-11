@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report
 X = []
 y = []
 
-for label in ["Eating", "Exploring", "Resting"]:
+for label in ["Eating", "Exploring", "Grooming", "Resting"]:
 
     folder = Path("dataset") / label
 

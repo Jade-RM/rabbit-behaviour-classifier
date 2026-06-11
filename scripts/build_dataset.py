@@ -6,6 +6,7 @@ labels = pd.read_csv("frame_labels.csv")
 
 Path("dataset/Eating").mkdir(parents=True, exist_ok=True)
 Path("dataset/Exploring").mkdir(parents=True, exist_ok=True)
+Path("dataset/Grooming").mkdir(parents=True, exist_ok=True)
 Path("dataset/Resting").mkdir(parents=True, exist_ok=True)
 
 for _, row in labels.iterrows():
