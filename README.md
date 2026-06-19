@@ -35,3 +35,5 @@ The pilot prototype has been completed. The model has an accuracy of 100% using 
 This indicates issues with the data and/or classifications used. However, it also demonstrates that the prototype pipeline is functioning.
 
 In the next step, a class of Grooming was added to the dataset, and the frames were reclassified to include this class. The accuracy of the model has decreased due to this, but it is still at an acceptable level. I will now continue using this model without further modifications, and collect more data.
+
+More data was collected in the next step, with 10 videos altogether. The model is able to better recognise the behaviours and the accuracy is quite high after being trained on the new data.

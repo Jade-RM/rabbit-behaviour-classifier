@@ -13,3 +13,15 @@ rabbit_behaviour_4,22,30,Eating
 rabbit_behaviour_5,0,4,Resting
 rabbit_behaviour_5,5,30,Eating
 rabbit_behaviour_6,0,17,Exploring
+rabbit_behaviour_7,0,21,Grooming
+rabbit_behaviour_7,22,25,Resting
+rabbit_behaviour_7,26,30,Grooming
+rabbit_behaviour_8,0,1,Resting
+rabbit_behaviour_8,2,4,Grooming
+rabbit_behaviour_8,5,30,Resting
+rabbit_behaviour_9,0,35,Eating
+rabbit_behaviour_10,0,1,Resting
+rabbit_behaviour_10,2,12,Exploring
+rabbit_behaviour_10,13,25,Resting
+rabbit_behaviour_10,26,27,Eating
+rabbit_behaviour_10,28,30,Resting
