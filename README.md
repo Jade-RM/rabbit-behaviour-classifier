@@ -37,3 +37,5 @@ This indicates issues with the data and/or classifications used. However, it als
 In the next step, a class of Grooming was added to the dataset, and the frames were reclassified to include this class. The accuracy of the model has decreased due to this, but it is still at an acceptable level. I will now continue using this model without further modifications, and collect more data.
 
 More data was collected in the next step, with 10 videos altogether. The model is able to better recognise the behaviours and the accuracy is quite high after being trained on the new data.
+
+While random frame splitting showed an apparently high level of accuracy (>90%), this was reduced substantially when the model was evaluated on a previously unseen video using the script train_by_video, indicating that environmental factors may have led to false accuracy levels. More data is required to acheive a true high level of accuracy.
